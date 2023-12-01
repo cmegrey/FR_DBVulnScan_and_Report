@@ -1,7 +1,7 @@
 # FR_DBVulnScan_and_Report
 
 -Problem-
-As part of the RA-5 control FedRAMP requires databases we scanned for vulnerabilities and this requirement presents a unique challenge when operating in a cloud environment. As cloud customers don't control the DB engine it can be difficult to know if that engine version has active CVEs. FedRAMP is requiring CSPs to "scan" their cloud databases and report upon DB engine versions with active CVEs. To date there are no commerical off the shelf tooling that provides this functionaltiy. The following Python scripts aim to solve this problem.
+As part of the RA-5 control FedRAMP requires databases be scanned for vulnerabilities and this requirement presents a unique challenge when operating in a cloud environment. As cloud customers don't control the DB engine it can be difficult to know if that engine version has active CVEs. FedRAMP is requiring CSPs to "scan" their cloud databases and report upon DB engine versions with active CVEs. To date there are no commerical off the shelf tooling that provides this functionaltiy. The following Python scripts aim to solve this problem.
 
 -Basic Functionality-
 1. Ingests a inventory of cloud databases either from a CSV or by quering the APIs of major cloud providers
